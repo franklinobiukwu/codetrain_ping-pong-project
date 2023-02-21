@@ -1,0 +1,57 @@
+body {
+    background-color: #413452;
+    margin: 0;
+}
+
+.paddle {
+    position: absolute;
+    background-color: rgb(198, 206, 93);
+    top: 50vh;
+    transform: translate(-50%);
+    width: 1vh;
+    height: 10vh;
+}
+
+.paddle.left {
+    left: 1vw;
+}
+
+.paddle.right {
+    right: 1vw;
+}
+
+.ball {
+    position: absolute;
+    background-color: rgb(198, 206, 93);
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    width: 2.5vh;
+    height: 2.5vh;
+    border-radius: 50%;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 60px;
+    color:  rgb(160, 67, 90);
+}
+
+.player-score, .computer-score {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding-right: 15px;
+    margin-top: 10px;
+    opacity: .5;
+}
+
+.player-score {
+    text-align: right;
+    border-right: 5px solid rgb(160, 67, 90);
+}
+
+.computer-score {
+    padding-left: 10px;
+}
