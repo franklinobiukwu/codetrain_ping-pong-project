@@ -1,23 +1,24 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .h1 {
-    margin-top: 10rem;
-    text-align: center;
-    margin-bottom: 0;
+  margin-top: 10rem;
+  text-align: center;
+  margin-bottom: 0;
 }
 
-#first-select, #second-select {
-    border-radius: 5px;
-    color: gray;
-    height: 2rem;
+.first-select,
+.second-select {
+  border-radius: 5px;
+  color: gray;
+  height: 2rem;
 }
 
 .selection-row {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 #button {
