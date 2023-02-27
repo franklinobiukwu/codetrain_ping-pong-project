@@ -12,8 +12,6 @@
 }
 
 body {
-  /* margin: 0;
-  background-color: var(--background-color);*/
   overflow: hidden;
   background-image: url('/Images/park.png');
   margin: 0;
@@ -25,7 +23,6 @@ body {
 
 .paddle {
   --position: 50;
-
   position: absolute;
   background-color: var(--foreground-color);
   top: calc(var(--position) * 1vh);
@@ -56,6 +53,10 @@ body {
   height: 2.5vh;
 }
 
+.top {
+  display: flex;
+}
+
 .score {
   display: flex;
   justify-content: center;
@@ -78,8 +79,9 @@ body {
 }
 
 .country {
-  font-size: 0.5em;
-  color: aqua;
+  font-size: 6vh;
+  color: var(--foreground-color);
   margin: auto;
   padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
