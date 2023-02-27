@@ -1,0 +1,68 @@
+body {
+    background-image: url('/Images/flag3.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+select {
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: transparent;
+    background-color: antiquewhite;
+}
+
+#selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    color: rgb(221, 14, 14);
+}
+
+.first-h2 {
+    margin-right: 100px;
+}
+
+.second-h2 {
+    margin-left: 40px;
+}
+
+#first-seclect {
+    margin-right: 10px;
+}
+
+#second-select {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(221, 14, 14);
+}
+
+#button {
+    margin-left: 10;
+    height: 30px;
+    width: 100px;
+    border: transparent;
+    border-radius: 5px;
+    background-color: rgb(218, 194, 240);
+    color: white;
+}
+
+#button:hover {
+    background-color: rgb(27, 36, 33);
+}
