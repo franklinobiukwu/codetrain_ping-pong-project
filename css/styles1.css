@@ -20,7 +20,7 @@
     margin-top: 3rem;
 }
 
-button {
+#button {
     margin-top: 5rem;
     height: 30px;
     width: 100px;
@@ -28,9 +28,9 @@ button {
     border-radius: 5px;
     background-color: #313e47;
     color: white;
-    margin-left: 12rem;
+    margin-left: 15rem;
 }
 
-button:hover {
+#button:hover {
     background-color: #ce7bc9;
 }
