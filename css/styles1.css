@@ -4,34 +4,62 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Work Sans', sans-serif !important;
+}
+
 .h1 {
   margin-top: 10rem;
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
+  font-weight: 600 !important;
+  color: #313e47 !important;
 }
 
-.first-select,
-.second-select {
+.inputLabel {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 400;
+  color: #313e47 !important;
+}
+
+.formSelect {
+  width: 100%;
+}
+
+#first-select,
+#second-select {
   border-radius: 5px;
   color: gray;
   height: 2rem;
+  padding: 0 0.5rem;
+  width: 100%;
+  font-size: 0.9rem;
+  text-align: center;
 }
 
 .selection-row {
   margin-top: 3rem;
 }
 
+.btnWrapper {
+  justify-content: center;
+  margin-top: 5rem;
+  width: 100%;
+}
+
 #button {
-    margin-top: 5rem;
-    height: 30px;
-    width: 100px;
-    border: transparent;
-    border-radius: 5px;
-    background-color: #313e47;
-    color: white;
-    margin-left: 15rem;
+  /* margin-top: 5rem; */
+  height: 30px;
+  width: 100px;
+  border: transparent;
+  border-radius: 5px;
+  background-color: #313e47;
+  color: white;
+  transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* margin-left: 15rem; */
 }
 
 #button:hover {
-    background-color: #ce7bc9;
+  background-color: #ce7bc9;
 }
