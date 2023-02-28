@@ -7,22 +7,7 @@
     <link rel="stylesheet" href="css/styles1.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- SCRIPT -->
-    <script>
-      function playerCountrySelectValue() {
-        let playerCountrySelect = document.getElementById('playerCountrySelect')
-          .value
-        localStorage.setItem('ddvalue', playerCountrySelect)
-        return true
-      }
-
-      function computerCountrySelectValue() {
-        let computerCountrySelect = document.getElementById(
-          'computerCountrySelect',
-        ).value
-        localStorage.setItem('ddvalueC', computerCountrySelect)
-        return true
-      }
-    </script>
+    
   </head>
   <body>
     <div class="container">
@@ -32,6 +17,10 @@
                 <h1 style="text-align: center; color: #ce7bc9; margin-top: 0;">24/7</h1>
      
                 <div class="row selection-row">
+                    <div class="col-sm-12 col-md-6">
+                        <h3>Your Country</h3>
+                        <form id="selection" action="index2.html">
+                        <div id="selection">
                             <select id="first-select" style="width: 15rem;">
                                 <option value="  " selected>Select a country</option>
                                 <option value="--">Not Specified</option>
@@ -279,7 +268,7 @@
                     </div>
 
 
-                    <div class="col-md-6">
+                    <div class="col-sm-12 col-md-6">
                         <h3>Country Against</h3>
                         <select id="second-select" style="width: 15rem;">
                             <option value="  " selected>Select a country</option>
@@ -541,7 +530,7 @@
             </div>
                 
 
-            <div class="col-md-6">
+            <div class="col-sm-12 col-md-6">
                 <img src="Images/ping-pong.jpg" alt="" width="600rem">
             </div>
         </div>
@@ -551,6 +540,22 @@
     
     <script src="js/jquery-3.6.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+        function playerCountrySelectValue() {
+          let playerCountrySelect = document.getElementById('first-select')
+            .value
+          localStorage.setItem('ddvalue', playerCountrySelect)
+          return true
+        }
+  
+        function computerCountrySelectValue() {
+          let computerCountrySelect = document.getElementById(
+            'second-select',
+          ).value
+          localStorage.setItem('ddvalueC', computerCountrySelect)
+          return true
+        }
+      </script>
   </body>
 </html>
 

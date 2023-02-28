@@ -13,7 +13,8 @@
 
 body {
   overflow: hidden;
-  background-image: url('/Images/park.png');
+  /* background-image: url('/Images/park.png'); */
+  background-color: #000;
   margin: 0;
   background-repeat: no-repeat;
   background-position: center;
@@ -79,7 +80,7 @@ body {
 }
 
 .country {
-  font-size: 6vh;
+  font-size: 4vh;
   color: var(--foreground-color);
   margin: auto;
   padding: 20px;
